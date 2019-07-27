@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>怎么利用Git和GitHub创建个人博客</title>
+      <title>Web测试比赛回顾</title>
       <link href="/2019/07/27/Web%E6%B5%8B%E8%AF%95%E6%AF%94%E8%B5%9B%E5%9B%9E%E9%A1%BE/"/>
       <url>/2019/07/27/Web%E6%B5%8B%E8%AF%95%E6%AF%94%E8%B5%9B%E5%9B%9E%E9%A1%BE/</url>
       
@@ -21,7 +21,7 @@
       <link href="/2019/07/06/test/"/>
       <url>/2019/07/06/test/</url>
       
-        <content type="html"><![CDATA[<p>####如果想要了解如何使用GitHub搭建博客，请移步【博客】（<a href="https://www.jianshu.com/p/6db5c75c167b）" target="_blank" rel="noopener">https://www.jianshu.com/p/6db5c75c167b）</a></p><p>####如果想要了解更多hexo常用命令的话，请移步【博客】（<a href="https://www.cnblogs.com/ZxrGloria/p/5770310.html）" target="_blank" rel="noopener">https://www.cnblogs.com/ZxrGloria/p/5770310.html）</a></p><h2 id="博客搭建过程中的问题以及解决方法"><a href="#博客搭建过程中的问题以及解决方法" class="headerlink" title="博客搭建过程中的问题以及解决方法"></a>博客搭建过程中的问题以及解决方法</h2><p>###1怎么上传新的博客和更新博客<br>Step1: 在Git Bash控制台软件中输入本地博客文件夹的路径，进入PC本地的博客文件夹<br>例：</p><pre><code class="bash"><span class="variable">$cd</span> c:/Users/admin/Desktop/myBlog```bashStep2: 生成静态文件```bash<span class="variable">$hexo</span> generate```bash(先，生成静态文件啦)Step3: 部署博客```bash<span class="variable">$hexo</span> delay```bash接下来等待更新完成~<span class="comment">###2.博客上传或者更新时出现错误提示，已经创建好的文挡无法上传</span>情况一：小白第一次用命令行，创建新文章，直接更新的话，git报错无法上传原因：语法有错误解决方法：文章是用MD(MarkDown)语言来写的，第一次接触的话可以在本地博客文件夹中打开sourse再打开_post（也就是文章所在的文件夹），比对博客默认生成的HelloWorld.md来写。其他情况：git报错原因：写的文章语法有错误解决方法：找bug,改完bug<span class="comment">###3.博客上传后原来的汉字变成乱码</span>原因：文档的编码不可以在网页上显示中文解决方法：用记事本打开已经创建好的，需要上传的MD文档，另存为，把文件的编码修改成UTF-8</code></pre>]]></content>
+        <content type="html"><![CDATA[<p>####如果想要了解如何使用GitHub搭建博客，请移步【博客】（<a href="https://www.jianshu.com/p/6db5c75c167b）" target="_blank" rel="noopener">https://www.jianshu.com/p/6db5c75c167b）</a></p><p>####如果想要了解更多hexo常用命令的话，请移步【博客】（<a href="https://www.cnblogs.com/ZxrGloria/p/5770310.html）" target="_blank" rel="noopener">https://www.cnblogs.com/ZxrGloria/p/5770310.html）</a></p><p>###1怎么上传新的博客和更新博客</p><h2 id="博客搭建过程中的问题以及解决方法"><a href="#博客搭建过程中的问题以及解决方法" class="headerlink" title="博客搭建过程中的问题以及解决方法"></a>博客搭建过程中的问题以及解决方法</h2><p>Step1: 在Git Bash控制台软件中输入本地博客文件夹的路径，进入PC本地的博客文件夹<br>例：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$cd</span> c:/Users/admin/Desktop/myBlog</span><br></pre></td></tr></table></figure><p>Step2: 生成静态文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> generate</span><br></pre></td></tr></table></figure><p>(先，生成静态文件啦)</p><p>Step3: 部署博客</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> delay</span><br></pre></td></tr></table></figure><p>接下来等待更新完成~</p><p>###2.博客上传或者更新时出现错误提示，已经创建好的文挡无法上传</p><p>情况一：小白第一次用命令行，创建新文章，直接更新的话，git报错无法上传<br>原因：语法有错误<br>解决方法：文章是用MD(MarkDown)语言来写的，第一次接触的话可以在本地博客文件夹中打开sourse再打开_post（也就是文章所在的文件夹），<br>比对博客默认生成的HelloWorld.md来写。<br>其他情况：git报错<br>原因：写的文章语法有错误<br>解决方法：找bug,改完bug</p><p>###3.博客上传后原来的汉字变成乱码</p><p>原因：文档的编码不可以在网页上显示中文<br>解决方法：用记事本打开已经创建好的，需要上传的MD文档，另存为，把文件的编码修改成UTF-8</p>]]></content>
       
       
       
