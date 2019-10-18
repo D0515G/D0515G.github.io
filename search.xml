@@ -8,7 +8,7 @@
       <link href="/2019/07/27/Web%E6%B5%8B%E8%AF%95%E6%AF%94%E8%B5%9B%E5%9B%9E%E9%A1%BE/"/>
       <url>/2019/07/27/Web%E6%B5%8B%E8%AF%95%E6%AF%94%E8%B5%9B%E5%9B%9E%E9%A1%BE/</url>
       
-        <content type="html"><![CDATA[<h2 id="博客搭建过程中的问题以及解决方法"><a href="#博客搭建过程中的问题以及解决方法" class="headerlink" title="博客搭建过程中的问题以及解决方法"></a>博客搭建过程中的问题以及解决方法</h2><p>1.怎么上传新的博客和更新博客<br>Step1: 在Git Bash控制台软件中输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generation</span><br></pre></td></tr></table></figure><a id="more"></a>]]></content>
+        <content type="html"><![CDATA[<h2 id="博客搭建过程中的问题以及解决方法"><a href="#博客搭建过程中的问题以及解决方法" class="headerlink" title="博客搭建过程中的问题以及解决方法"></a>博客搭建过程中的问题以及解决方法</h2><p>1.怎么上传新的博客和更新博客</p><a id="more"></a><p>Step1: 在Git Bash控制台软件中输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generation</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
